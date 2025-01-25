@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parcs Nationaux - Activités du Sénégal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .park {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 20px 0;
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .park img {
+      width: 100%;  /* Utiliser 100% de l'espace disponible dans la div */
+      height: 100%;  /* Ajuster la hauteur pour que l'image soit bien dimensionnée */
+      object-fit: cover;  /* L'image couvre toute la surface sans déformation */
+      border-radius: 5px;
+      max-width: 500px; /* Limiter la taille de l'image */
+    }
+
+    .park-content {
+      width: 50%;  /* Réduire la largeur du texte pour bien séparer l'image */
+      padding-left: 20px;
+    }
+
+    .park h2 {
+      font-size: 28px;
+      margin-top: 0;
+    }
+
+    .park p {
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Les Parcs Nationaux du Sénégal</h1>
+  </header>
+
+  <div class="container">
+    <div class="park">
+      <div class="image-container">
+        <img src="Parc-national-du-niokolo-Koba.jpg" alt="Parc National du Niokolo-Koba">
+      </div>
+      <div class="park-content">
+        <h2>Parc National du Niokolo-Koba</h2>
+        <p>Ce parc est l'un des plus grands d'Afrique de l'Ouest. Il abrite une biodiversité exceptionnelle, incluant des éléphants, des lions et des gorilles.</p>
+      </div>
+    </div>
+
+    <div class="park">
+      <div class="image-container">
+        <img src="2-Saloum-700x440.jpg" alt="Parc National du Delta du Saloum">
+      </div>
+      <div class="park-content">
+        <h2>Parc National du Delta du Saloum</h2>
+        <p>Un site de biodiversité unique, ce parc est un paradis pour les oiseaux migrateurs et les amoureux de la nature.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
